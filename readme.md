@@ -21,3 +21,9 @@ handling.
 This is supported by the fact that the Mermaid MarkDown shortcut file just opens
 its raw content like any other MarkDown file without doing any sort of
 redirecting or linkifying the content path.
+
+The hypothesis turned out to be correct, after creating a shortcut using `ln`,
+like so: `ln -s destination.md shortcut3.md`, and pushing the resulting file to
+the repository, it now shows up with the special icon and its content is the
+destination file as expected and as seen in the case of the Mermaid repository
+file.
